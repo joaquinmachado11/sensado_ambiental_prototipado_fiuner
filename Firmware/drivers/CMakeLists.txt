@@ -28,6 +28,14 @@ set(srcs
     "devices/src/mpu6050.c"
     "devices/src/buzzer.c"
     "devices/src/l293.c"
+    "devices/src/sen55/sen5x_i2c.c"
+    "devices/src/sen55/sensirion_common.c"
+    "devices/src/sen55/sensirion_i2c_hal.c"
+    "devices/src/sen55/sensirion_i2c.c"
+    "devices/src/scd4x/scd4x_i2c.c"
+    "devices/src/scd4x/sensirion_common.c"
+    "devices/src/scd4x/sensirion_i2c_hal.c"
+    "devices/src/scd4x/sensirion_i2c.c"
     )
 
 # Always included headers
